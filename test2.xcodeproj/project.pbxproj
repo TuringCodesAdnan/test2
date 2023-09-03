@@ -14,6 +14,8 @@
 		A42C8C792AA4A54200A36A9F /* test2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A42C8C772AA4A54200A36A9F /* test2.xcdatamodeld */; };
 		A42C8C7B2AA4A54200A36A9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A42C8C7A2AA4A54200A36A9F /* Assets.xcassets */; };
 		A42C8C7E2AA4A54200A36A9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A42C8C7C2AA4A54200A36A9F /* LaunchScreen.storyboard */; };
+		A42C8C862AA4A65400A36A9F /* SlideUpMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42C8C852AA4A65400A36A9F /* SlideUpMenuView.swift */; };
+		A42C8C882AA4A97100A36A9F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42C8C872AA4A97100A36A9F /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		A42C8C7A2AA4A54200A36A9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A42C8C7D2AA4A54200A36A9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A42C8C7F2AA4A54200A36A9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A42C8C852AA4A65400A36A9F /* SlideUpMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideUpMenuView.swift; sourceTree = "<group>"; };
+		A42C8C872AA4A97100A36A9F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +64,9 @@
 			children = (
 				A42C8C6E2AA4A54100A36A9F /* AppDelegate.swift */,
 				A42C8C702AA4A54100A36A9F /* SceneDelegate.swift */,
+				A42C8C872AA4A97100A36A9F /* HomeViewController.swift */,
 				A42C8C722AA4A54100A36A9F /* ViewController.swift */,
+				A42C8C852AA4A65400A36A9F /* SlideUpMenuView.swift */,
 				A42C8C742AA4A54100A36A9F /* Main.storyboard */,
 				A42C8C7A2AA4A54200A36A9F /* Assets.xcassets */,
 				A42C8C7C2AA4A54200A36A9F /* LaunchScreen.storyboard */,
@@ -144,7 +150,9 @@
 				A42C8C792AA4A54200A36A9F /* test2.xcdatamodeld in Sources */,
 				A42C8C732AA4A54100A36A9F /* ViewController.swift in Sources */,
 				A42C8C6F2AA4A54100A36A9F /* AppDelegate.swift in Sources */,
+				A42C8C862AA4A65400A36A9F /* SlideUpMenuView.swift in Sources */,
 				A42C8C712AA4A54100A36A9F /* SceneDelegate.swift in Sources */,
+				A42C8C882AA4A97100A36A9F /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
