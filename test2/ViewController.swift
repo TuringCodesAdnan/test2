@@ -59,14 +59,14 @@ class ViewController: UIViewController {
         slideUpMenu?.backgroundColor = #colorLiteral(red: 0.1176470444, green: 0.1176470444, blue: 0.1176470444, alpha: 1)
         slideUpMenu?.setLabelText(labelText)
 
-        UIView.animate(withDuration: 0.5) {
+        UIView.animate(withDuration: 0.5, animations: {
             self.slideUpMenu?.frame.origin.y = self.view.frame.height - 300
-        }
+        })
     }
 
     
     func hideSlideUpMenu() {
-        UIView.animate(withDuration: 0.3, animations: {
+        UIView.animate(withDuration: 0.5, animations: {
             self.slideUpMenu?.frame.origin.y = self.view.frame.height
         }) { (_) in
             self.slideUpMenu?.removeFromSuperview()

@@ -16,6 +16,8 @@
 		A42C8C7E2AA4A54200A36A9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A42C8C7C2AA4A54200A36A9F /* LaunchScreen.storyboard */; };
 		A42C8C862AA4A65400A36A9F /* SlideUpMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42C8C852AA4A65400A36A9F /* SlideUpMenuView.swift */; };
 		A42C8C882AA4A97100A36A9F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42C8C872AA4A97100A36A9F /* HomeViewController.swift */; };
+		A45CB1B22AA68F120051FBCE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45CB1B12AA68F120051FBCE /* LoginViewController.swift */; };
+		A45CB1B42AA69AF40051FBCE /* PasswordTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45CB1B32AA69AF40051FBCE /* PasswordTF.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		A42C8C7F2AA4A54200A36A9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A42C8C852AA4A65400A36A9F /* SlideUpMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideUpMenuView.swift; sourceTree = "<group>"; };
 		A42C8C872AA4A97100A36A9F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A45CB1B12AA68F120051FBCE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A45CB1B32AA69AF40051FBCE /* PasswordTF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTF.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,11 +71,13 @@
 				A42C8C872AA4A97100A36A9F /* HomeViewController.swift */,
 				A42C8C722AA4A54100A36A9F /* ViewController.swift */,
 				A42C8C852AA4A65400A36A9F /* SlideUpMenuView.swift */,
+				A45CB1B12AA68F120051FBCE /* LoginViewController.swift */,
 				A42C8C742AA4A54100A36A9F /* Main.storyboard */,
 				A42C8C7A2AA4A54200A36A9F /* Assets.xcassets */,
 				A42C8C7C2AA4A54200A36A9F /* LaunchScreen.storyboard */,
 				A42C8C7F2AA4A54200A36A9F /* Info.plist */,
 				A42C8C772AA4A54200A36A9F /* test2.xcdatamodeld */,
+				A45CB1B32AA69AF40051FBCE /* PasswordTF.swift */,
 			);
 			path = test2;
 			sourceTree = "<group>";
@@ -147,6 +153,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A45CB1B42AA69AF40051FBCE /* PasswordTF.swift in Sources */,
+				A45CB1B22AA68F120051FBCE /* LoginViewController.swift in Sources */,
 				A42C8C792AA4A54200A36A9F /* test2.xcdatamodeld in Sources */,
 				A42C8C732AA4A54100A36A9F /* ViewController.swift in Sources */,
 				A42C8C6F2AA4A54100A36A9F /* AppDelegate.swift in Sources */,
